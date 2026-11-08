@@ -17,24 +17,24 @@ An asynchronous Telegram bot built with **Python**, **Aiogram 3**, and **Playwri
    ```bash
    git clone [https://github.com/advlogpro/air-cargo-tracking-bot.git](https://github.com/advlogpro/air-cargo-tracking-bot.git)
    cd air-cargo-tracking-bot
-
+   ```
 2. **Create and activate a virtual environment:**
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-
+   python3 -m venv venv
+   source venv/bin/activate
+```
 3. **Install dependencies:**
 ```bash
-pip install -r requirements.txt
-playwright install chromium
-
+   pip install -r requirements.txt
+   playwright install chromium
+```
 4. **Configure your Bot Token:**
 ```bash
-Open bot_tracker.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual Telegram bot token from @BotFather.
-
+   Open bot_tracker.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual Telegram bot token from @BotFather.
+```
 5. **Run the bot:**
 ```bash
 python bot_tracker.py
-
+```
 📄 License
 This project is open-source and available under the MIT License.
