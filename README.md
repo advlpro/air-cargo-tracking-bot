@@ -20,23 +20,23 @@ An asynchronous Telegram bot built with **Python**, **Aiogram 3**, and **Playwri
 
 
 
-Create and activate a virtual environment:
+2. **Create and activate a virtual environment:**
 
-Bash
+
 python3 -m venv venv
 source venv/bin/activate
-Install dependencies:
+3. **Install dependencies:**
 
-Bash
+
 pip install -r requirements.txt
 playwright install chromium
-Configure your Bot Token:
+
+4. **Configure your Bot Token:**
 Open bot_tracker.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual Telegram bot token from @BotFather.
 
-Run the bot:
+5. **Run the bot:**
 
-Bash
 python bot_tracker.py
 
 📄 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License (https://www.google.com/search?q=LICENSE).
